@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/CataWard_Icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <title>Contact Us | CataWard.com</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/Cataward-Logo.png" alt="CataWard Logo" class="logo">
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <label class="topics">Disasters</label>
+                    <div class="dropdown-menu">
+                        <a href="contents/Typhoon.html">Typhoon</a>
+                        <a href="contents/Flood.html">Flood</a>
+                        <a href="contents/Earthquake.html">Earthquake</a>
+                        <a href="contents/Landslide.html">Landslide</a>
+                        <a href="contents/Tsunami.html">Tsunami</a>
+                    </div>
+                </li>
+
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>At <b>CataWard</b>, we're committed to providing you with the information and resources you need to stay
+            safe and prepared for emergencies. If you have any questions, feedback, or need assistance, please don't
+            hesitate to get
+            in touch with us.</p>
+        <p><strong>Our Address:</strong></p>
+
+        <p>
+            Bicol University, College of Science <br>
+            Legaspi City, 4500<br>
+            Philippines
+        </p>
+        <p>Phone: <strong>------- </strong><br>
+            Email: <strong>info@cataward.com</strong>
+        </p>
+
+        <!--add form for inquiries-->
+        <p>Alternatively, you can fill out the form below and we'll get back to you as soon as possible.</p>
+
+        <!--optional. may delete or update this if needed-->
+        <form action="contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p>Stay connected with us on social media for the latest updates, tips, and
+            resources on disaster preparedness: <br>
+            <a href="#"><ion-icon name="logo-facebook">facebook</ion-icon></a>
+            <a href="#">Twitter</a>
+            <a href="#"><ion-icon name="logo-instagram">Instagram</ion-icon></a> <br>
+            We're here to help you stay safe and prepared for any emergency.
+            Thank you for visiting CataWard!
+        </p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Hotline Number</h3>
+                <ul>
+                    <li>Emergency Hotline - #911</li>
+                    <li>Red Cross: #143</li>
+                    <li>National Complaint Hotline: #8888 </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal Information</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 CataWard. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
