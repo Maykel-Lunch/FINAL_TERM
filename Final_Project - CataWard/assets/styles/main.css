@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header CSS */
+header {
+  font: 700 normal small "Roboto Mono", monospace;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212e26;
+  color: white;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  background: center no-repeat;
+}
+
+nav {
+  padding: 15px;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.right-container{
+  display: flex;
+  justify-content: right;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li:hover{
+  color: aquamarine;
+}
+
+
+.dropdown {
+  position: relative;
+  text-align: start;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown .dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown .dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Footer CSS */
+footer {
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+
+  font-weight: 700;
+  font-style: normal;
+  font-size: smaller;
+  background-color: #212e26;
+  color: #fff;
+  padding: 30px 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section:last-child {
+  margin-right: 0;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover, .social-icon:hover{
+  color: aquamarine;
+}
+
+main{
+  padding: 20px;
+}
