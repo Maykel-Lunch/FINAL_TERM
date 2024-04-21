@@ -53,7 +53,6 @@ article{
 }
 
 .title-container{
-    /* background-color: rgb(121, 209, 178); */
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -71,7 +70,7 @@ h2 > a:hover{
 }
 
 
-
+/* Change thiss */
 @media (max-width: 400px) {
     article{
       width: 100%; /* Change container width to 100% for smaller screens */

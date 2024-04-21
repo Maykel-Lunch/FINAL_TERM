@@ -7,6 +7,7 @@
     <link rel="icon" href="assets/images/CataWard_Icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/contact.css">
     <title>Contact Us | CataWard.com</title>
 </head>
 
@@ -54,21 +55,25 @@
 
         <!--optional. may delete or update this if needed-->
         <form action="contact_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
             <input type="submit" value="Submit">
         </form>
 
         <p>Stay connected with us on social media for the latest updates, tips, and
-            resources on disaster preparedness: <br>
-            <a href="#"><ion-icon name="logo-facebook">facebook</ion-icon></a>
-            <a href="#">Twitter</a>
-            <a href="#"><ion-icon name="logo-instagram">Instagram</ion-icon></a> <br>
-            We're here to help you stay safe and prepared for any emergency.
+            resources on disaster preparedness:
+        </p>
+        <p> We're here to help you stay safe and prepared for any emergency.
             Thank you for visiting CataWard!
         </p>
     </section>
