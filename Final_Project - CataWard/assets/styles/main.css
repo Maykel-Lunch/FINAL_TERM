@@ -57,7 +57,6 @@ nav ul li a:hover, nav ul li:hover{
   color: aquamarine;
 }
 
-
 .dropdown {
   position: relative;
   text-align: start;
@@ -80,13 +79,26 @@ nav ul li a:hover, nav ul li:hover{
   display: block;
 }
 
+
+.dropdown-menu {
+  display: none;
+}
+
 .dropdown .dropdown-menu a:hover {
   background-color: #f1f1f1;
 }
 
 
-.dropdown:hover .dropdown-menu {
+.dropdown-toggle:hover .dropdown-menu {
   display: block;
+}
+
+.dropdown-arrow i {
+  transition: transform 0.3s ease; 
+}
+
+.dropdown-toggle:hover .dropdown-arrow i {
+  transform: rotate(180deg);
 }
 
 /* Footer CSS */

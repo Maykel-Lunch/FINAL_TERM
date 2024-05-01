@@ -10,19 +10,19 @@ form {
     padding: 10px;
     width: 80%;
     margin: 0 auto;
-  }
+}
   
   
-  .form-group {
+.form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-  }
+}
   
 
-  label {
+label {
     margin-bottom: 5px;
-  }
+}
   
   
   input[type="text"],
