@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-main {
-    font: small "Roboto Mono", monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .image-section {
     position: relative;
@@ -29,6 +25,7 @@ main {
 }
 
 .content-container h1, h2, h3 {
+    font-family:'Archivo Black', sans-serif;
     font-size: 30px;
     text-align: justify;
 }
@@ -39,7 +36,7 @@ main {
 }
 
 .content-container img {
-    width: 600px; 
+    width: 900px; 
     height: auto;
     display: block;
     margin: 0 auto;

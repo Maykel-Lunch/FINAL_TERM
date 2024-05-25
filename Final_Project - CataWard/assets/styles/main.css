@@ -7,16 +7,23 @@ body {
 
 /* Header CSS */
 header {
+  margin: 0;
+  padding: 0;
+  background-color: #212e26;
+}
+
+.header-container{
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px; 
+  box-sizing: border-box; 
+
   font: 700 normal small "Roboto Mono", monospace;
   width: 100%;
-  margin: 0 auto;
-  padding: 0 40px;
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #212e26;
-  color: white;
+  align-items: center; 
+  color: white; 
 }
 
 .logo {
@@ -101,19 +108,40 @@ nav ul li a:hover, nav ul li:hover{
   transform: rotate(180deg);
 }
 
+
+.back-to-top{
+  color: #16c92a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.back-to-top:hover{
+  color: #108b1f;
+}
+
 /* Footer CSS */
 footer {
-  display: flex;
- flex-direction: column;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #212e26;
+}
 
+.footer-container{
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px; 
+  box-sizing: border-box; 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-weight: 700;
   font-style: normal;
   font-size: smaller;
   background-color: #212e26;
   color: #fff;
-  padding: 30px 30px;
 }
+
 
 .footer-content {
   display: flex;
@@ -170,5 +198,6 @@ footer {
 }
 
 main{ 
+  font: small "Roboto Mono", monospace;
   padding: 20px;
 }
