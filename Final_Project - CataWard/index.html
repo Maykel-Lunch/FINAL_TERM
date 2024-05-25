@@ -17,53 +17,51 @@
 
 <body>
     <header>
-            <img src="assets/images/Cataward-Logo.png" alt="CataWard Logo" class="logo">
-        <nav>
-            <ul>
-                <li class="dropdown">
-                    <div class="dropdown-toggle">
-                        <label class="topics" for="dropdown-toggle">Disasters</label>
-                        <span class="dropdown-arrow"><i class="fas fa-chevron-down fa-sm"></i></span>
-                        <div class="dropdown-menu">
-                            <a href="contents/Typhoon.html">Typhoon</a>
-                            <a href="contents/Flood.html">Flood</a>
-                            <a href="contents/Earthquake.html">Earthquake</a>
-                            <a href="contents/Landslide.html">Landslide</a>
-                            <a href="contents/Tsunami.html">Tsunami</a>
-                        </div>
-                    </div>
-                </li>
-                
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-            </ul>
-        </nav>
+            <div class="header-container">
+                <img src="assets/images/Cataward-Logo.png" alt="CataWard Logo" class="logo">
+                <nav>
+                    <ul>
+                        <li class="dropdown">
+                            <div class="dropdown-toggle">
+                                <label class="topics" for="dropdown-toggle">Disasters</label>
+                                <span class="dropdown-arrow"><i class="fas fa-chevron-down fa-sm"></i></span>
+                                <div class="dropdown-menu">
+                                    <a href="contents/Typhoon.html">Typhoon</a>
+                                    <a href="contents/Flood.html">Flood</a>
+                                    <a href="contents/Earthquake.html">Earthquake</a>
+                                    <a href="contents/Landslide.html">Landslide</a>
+                                    <a href="contents/Tsunami.html">Tsunami</a>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
     </header>
 
     <section class="image-section">
-        <img src="assets/images/typhoonAnimation.webp" alt="image">
+        <div class="card-container">
+            <img src="assets/images/typhoonAnimation.webp" alt="image">
 
-        <div class="card-heading">
-            <h1>Catastrophe Ward</h1>
-            <p>Welcome to our <strong>Disasters Preparedness Hub</strong>. Be informed, stay safe. Explore essential
-                tips and guidelines
-                on how to navigate through natural disasters such as tsunamis, earthquakes, and more. Arm yourself with
-                knowledge, make a plan, and ensure the safety of yourself and your loved ones.
-                Together, let's build resilience in the face of unexpected challenges. </p>
-            <p>
-                Discover practical steps for emergency evacuation, essential emergency kit essentials, communication
-                strategies, and community resources. Your safety matters, and being prepared is the first step towards
-                resilience.
-                Explore our resources to empower yourself in the face of unforeseen events. Stay informed, stay
-                vigilant, and stay safe.
-            </p>
+            <div class="card-heading">
+                <h1>Catastrophe Ward</h1>
+                <h2>
+                    Welcome to <strong>CataWard</strong> - your <strong>Disaster Preparedness Hub</strong>! 
+                    Stay informed and ready with our essential tips and guidelines for navigating natural disasters. 
+                </h2>
+            </div>
         </div>
 
     </section>
 
     <main>
         <article>
-            <img class="img-container" src="assets/images/Typhoon Hinnamnor.jpg" alt="typhoon">
+            <a href="contents/Typhoon.html">
+                <img class="img-container" src="assets/images/Typhoon Hinnamnor.jpg" alt="typhoon">
+            </a>
 
             <div class="title-container">
                 <h2><a href="contents/Typhoon.html">Typhoon</a></h2>
@@ -73,7 +71,9 @@
         </article>
 
         <article>
-            <img class="img-container" src="assets/images/Flood.jpeg" alt="flood">
+            <a href="contents/Flood.html">
+                <img class="img-container" src="assets/images/flood.jpg" alt="flood">
+            </a>
 
             <div class="title-container">
                 <h2><a href="contents/Flood.html">Flood</a></h2>
@@ -84,7 +84,9 @@
         </article>
 
         <article>
-            <img class="img-container" src="assets/images/Earthquake.jpg" alt="earthquake">
+            <a href="contents/Earthquake.html">
+                <img class="img-container" src="assets/images/Earthquake.jpg" alt="earthquake">
+            </a>
 
             <div class="title-container">
                 <h2><a href="contents/Earthquake.html">Earthquake</a></h2>
@@ -94,7 +96,9 @@
         </article>
 
         <article>
-            <img class="img-container" src="assets/images/Landslide.jpg" alt="landslide">
+            <a href="contents/Landslide.html">
+                <img class="img-container" src="assets/images/Landslide.jpg" alt="landslide">
+            </a>
 
             <div class="title-container">
                 <h2><a href="contents/Landslide.html">Landslide</a></h2>
@@ -104,7 +108,9 @@
             
 
         <article>
-            <img class="img-container" src="assets/images/Tsunami.png" alt="tsunami">
+            <a href="contents/Tsunami.html">
+                <img class="img-container" src="assets/images/Tsunami.png" alt="tsunami">
+            </a>
 
             <div class="title-container">
                 <h2><a href="contents/Tsunami.html">Tsunami</a></h2>
@@ -112,44 +118,48 @@
             </div>
 
         </article>
+
+        <a href="#" class="back-to-top">↑ Back to Top</a>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Hotline Number</h3>
-                <ul>
-                    <li>Emergency Hotline - #911</li>
-                    <li>Red Cross: #143</li>
-                    <li>National Complaint Hotline: #8888 </p>
-                    </li>
-                </ul>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hotline Number</h3>
+                    <ul>
+                        <li>Emergency Hotline - #911</li>
+                        <li>Red Cross: #143</li>
+                        <li>National Complaint Hotline: #8888 </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal Information</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <div class="footer-section">
-                <h3>Legal Information</h3>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                </ul>
-            </div>
+            <p>&copy; 2024 CataWard. All rights reserved.</p>
         </div>
-        
-        <div class="social-links">
-            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        <p>&copy; 2024 CataWard. All rights reserved.</p>
     </footer>
 </body>
 

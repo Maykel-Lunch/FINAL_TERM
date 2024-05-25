@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 section{ 
-    padding: 40px;
     font: small "Roboto Mono", monospace;
  }
 
@@ -48,5 +47,12 @@ label {
   /* Styles for submit button on hover */
   input[type="submit"]:hover {
     background-color: #45a049;
+  }
+
+  .section-container{
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
   }
   
